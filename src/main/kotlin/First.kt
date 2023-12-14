@@ -1,3 +1,4 @@
 fun main(){
-    println("Hello Akram")
+    var studentName:String="Akram"
+    println("Hello ${studentName}")
 }
