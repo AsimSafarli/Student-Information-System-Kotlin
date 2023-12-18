@@ -1,14 +1,4 @@
 package Subject
 
-class Subject (var subjectName:String, var subjectCredit:String)
+class Subject (var subjectName:String, var subjectCredit:Int)
 
- fun SubjectInformation(subject: Subject):String{
-     return ("This lesson name : ${subject.subjectName} , This lesson has ${subject.subjectCredit}")
- }
-fun main(){
-    var firstSubject= Subject("Kotlin","300")
-
-    var subjectInformation = SubjectInformation(firstSubject)
-
-    println(subjectInformation)
-}
